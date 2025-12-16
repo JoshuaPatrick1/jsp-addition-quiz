@@ -1,0 +1,12 @@
++-------------------+          +-------------------+
+|   quiz.jsp        |          |   result.jsp      |
++-------------------+          +-------------------+
+| - Generates 5 Qs  |          | - Retrieves nums  |
+| - Stores num1,num2|          | - Compares answers|
+|   in session      |          | - Counts correct  |
+| - Displays form   |          | - Displays result |
++-------------------+          +-------------------+
+          |                               ^
+          | (form submit POST)            |
+          +-------------------------------+
+                  HTTP Request/Response
